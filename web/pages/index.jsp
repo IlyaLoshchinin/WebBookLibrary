@@ -57,16 +57,16 @@
     <%}%>
 
     <div class="row">
-        <div class="col-xs-12">
-            <h1 class="text-center text-uppercase text-area">Library online</h1>
-            <div class="col-sm-10 col-sm-offset-1">
+
+            <h1 class="text-center text-uppercase text-area">Find the best book!</h1>
+            <div class="col-xs-12 ">
                 <form class="form form-search" name="libraryBook" action="index.jsp" method="post">
                     <div class="form-group">
-                        <div class="col-xs-8">
+                        <div class="col-xs-12 col-sm-8 ">
                             <input type="search" name="keyword" class="form-control" BookDB
                                    placeholder="Find a book by keyword">
                         </div>
-                        <div class="col-xs-4">
+                        <div class="col-xs-12 col-sm-4 ">
                             <button class="btn btn-primary" name="button" value="search" type="submit">Search</button>
                             <button class="btn btn-default" name="button" value="view_all" type="submit">View All
                             </button>
@@ -77,7 +77,7 @@
 
             </div>
 
-        </div>
+
     </div>
     <div class="row">
         <div class="col-xs-12">
@@ -90,7 +90,7 @@
     </div>
     <div class="row">
         <div class="col-xs-12">
-
+            <div class="table-responsive">
             <table class="table table-bordered table-hover">
 
 
@@ -113,7 +113,7 @@
                 </c:forEach>
 
             </table>
-
+            </div>
 
         </div>
     </div>
